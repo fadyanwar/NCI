@@ -1,0 +1,23 @@
+table 
+{
+    margin: 250px auto;
+    width: 50%;
+    background-color: gray;
+}
+td {
+    padding:  15px;
+}
+.label {
+    width: 30%;
+}
+#msg {
+	position: fixed;
+	height: 90px;
+	width: 300px;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgb(232, 196, 196);
+	display: none;
+}
